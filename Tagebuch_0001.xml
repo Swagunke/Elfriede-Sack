@@ -482,11 +482,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240426120615353",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-04-26T10:06:15.353Z",
+	"dcterms:modified": "2024-04-26T10:06:15.353Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Swagunke",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Swagunke"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240426120615353#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240426120615353#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2842619",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="prose">
-				<head>Tagebuch Elfriede Sack</head><p/><p/><p><date from="1941-12-31" to="1942-01-01">Sylvester 1941-42</date></p><p>Bei einem Besuch bei Frau</p><p>Oberin in Saasa erfahre ich,</p><p>daß ich in nägster Zeit</p><p>zum Einsatz komme. Ich</p><p>bin überglücklich und</p><p>freue mich mächtig</p><p/><p><date when="1942-01-02" cert="high">2. Januar 1942</date></p><p>Heute bin ich von Frau</p><p>Oberin eingekleidet wor-</p><p>den. Eine ganz prima</p><p>Ausrüstung mit allem</p><p>Komfort für die russische</p><p>Kälte. Ziel noch unbekannt.</p><p>Sylvester habe ich gut im</p><p>Kreise meiner Eltern ver-</p><p>lebt. Auch eine Kammera-</p><p>din aus Krimmitschau,</p>
+				<head>Tagebuch Elfriede Sack</head><p/><p/><p><date from="1941-12-31" to="1942-01-01">Sylvester 1941-42</date></p><p>Bei einem Besuch bei Frau</p><p>Oberin in <placeName key="Saasa Thuringia Germany" ref="https://geonames.org/2842619" cert="high">Saasa<precision match="@ref" precision="high"/></placeName> erfahre ich,</p><p>daß ich in nägster Zeit</p><p>zum Einsatz komme. Ich</p><p>bin überglücklich und</p><p>freue mich mächtig</p><p/><p><date when="1942-01-02" cert="high">2. Januar 1942</date></p><p>Heute bin ich von Frau</p><p>Oberin eingekleidet wor-</p><p>den. Eine ganz prima</p><p>Ausrüstung mit allem</p><p>Komfort für die russische</p><p>Kälte. Ziel noch unbekannt.</p><p>Sylvester habe ich gut im</p><p>Kreise meiner Eltern ver-</p><p>lebt. Auch eine Kammera-</p><p>din aus Krimmitschau,</p>
 			</div>
 			<div type="notes">
 				<head/></div><div type="annotations"><head/></div><div type="works">
