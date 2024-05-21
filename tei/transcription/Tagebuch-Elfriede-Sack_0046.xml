@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"/>
+                <author>
+                    <persName>
+                        <surname>Sack</surname>
+                        <forename>Elfriede</forename>
+                        
+                    </persName>
+                </author>
+                <editor>
+                    <persName>
+                        <surname>Lörzer</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                </editor>
+                
+                <respStmt>
+                   <persName>
+                       
+                   </persName>
+                    
+                    <resp>
+                        <note type="remarkResponsibility">Herausgeber</note>
+                        <persName>
+                            <!-- Heraugeberschaft klären -->
+                        </persName>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Tagebuch 31.12.1941-20.01.1942
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    
+                    <orgName role="hostingInstitution" xml:lang="deu">Thüringer Universitäts- und Landesbibliothek Jena</orgName>
+                </publisher>
+                
+                <pubPlace>Jena</pubPlace>
+                <date type="publication"></date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Distributed under the Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb"/>
+                    <idno type="URLXML"/>
+                    <idno type="URN"/>
+                </idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl type="MAN"> </bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Tagebuch 31.12.1941-20.01.1942</title>
+                        
+                    </titleStmt>
+                    <extent>
+                        <measure type="pages"><!-- Anzahl Seiten --></measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher/>
+                        
+                        <date type="creation">
+                            <note>start</note>
+                            31.12.1941
+                        </date>
+                        <date type="creation">
+                            <note>end</note>
+                            
+                        </date>
+                    </publicationStmt>
+                    
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Privatbesitz</repository>
+                        
+                        <idno type="URLCatalogue">
+                            https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00126117
+                        </idno>
+                        
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <p><!-- Maße --></p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    
+                    &lt;p&gt;Dieses Werk wurde in XML/TEI P5 nach &lt;a href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt; kodiert.&lt;/p&gt;
+                    
+                </p>
+            </editorialDecl>
+            <tagsDecl/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">Deutsch</language>
+            </langUsage>
+            <textClass>
+  
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div n="1">
+                <head>Sylvester 1941-42</head>
+                <p>
+                    <lb/>Bei einem Besuch bei <persName ref="p001">Frau
+                        <lb/>Oberin</persName> in <placeName ref="https://d-nb.info/gnd/1052923658">Saasa</placeName>  erfahre ich, 
+                    <lb/>daß ich in nägster Zeit 
+                    <lb/>zum Einsatz komme. Ich 
+                    <lb/>bin überglücklich und
+                    <lb/>freue mich mächtig
+                    
+                </p>
+                
+            </div>
+            <div n="2">
+                <head>2.Januar 1942</head>
+                <p>
+                    <lb/>Heute bin ich von <persName ref="p001">Frau
+                        <lb/>Oberin</persName> eingekleitet wor-
+                    <lb/>den. Eine ganz prima
+                    <lb/>Ausrüstung mit allem 
+                    <lb/>Komfort für die russische
+                    <lb/>Kälte. Ziel noch unbekannt.
+                    <lb/>Sylvester habe ich gut im 
+                    <lb/>Kreise meiner Eltern ver-
+                    <lb/>lebt. Auch eine <persName ref="p002">Kammera-
+                        <lb/>din aus <placeName ref= "https://d-nb.info/gnd/4090618-8">Krimmitschau</placeName></persName>,
+                    
+                    
+                </p>
+                
+            </div>    
+           
+        </body>
+    </text>
+</TEI>

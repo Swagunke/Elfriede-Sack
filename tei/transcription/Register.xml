@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Register>
+    <Personenregister>
+
+        <persName xml:id="p001">
+            <Name>Frau Oberin</Name>
+            <Biogramm type="short">kurzes Beschreibung der Person</Biogramm>
+            <Variante>Namensvarianten</Variante>
+            <Anmerkung/>
+        </persName>
+    </Personenregister>
+    
+        <Themenregister>
+        <ref xml:id="t001">
+            <Anzeigename>russische Kälte</Anzeigename>
+            <Themenbeschreibung>kurzer Text, der immer auftaucht, wenn das Thema "russische Kälte" gennant wird.</Themenbeschreibung>
+            <Hinweis/>
+        </ref>
+    </Themenregister>
+</Register>
